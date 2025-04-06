@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gelinho Gourmet</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fef6f0;
+      color: #333;
+    }
+
+    header {
+      background: #ff5e78;
+      padding: 20px;
+      text-align: center;
+      color: white;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 8px;
+      font-size: 1.2rem;
+      font-weight: 300;
+    }
+
+    .sabores {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 30px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    .sabor {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+      transition: transform 0.2s;
+    }
+
+    .sabor:hover {
+      transform: scale(1.03);
+    }
+
+    .sabor h2 {
+      font-size: 1.3rem;
+      margin-bottom: 8px;
+    }
+
+    .sabor p {
+      font-size: 1.1rem;
+      margin-bottom: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #ff5e78;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+
+    .btn:hover {
+      background: #e84c66;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1> Gelinho Gourmet 🍧</h1>
+    <p>Sabores deliciosos para você se refrescar!</p>
+  </header>
+
+  <main class="sabores">
+    <div class="sabor">
+      <h2>Morango 🍓</h2>
+      <p>R$ 2,50</p>
+      <a href="https://wa.me/5599999999999?text=Quero%20um%20gelinho%20de%20Morango" class="btn" target="_blank">Pedir</a>
+    </div>
+    <div class="sabor">
+      <h2>Uva 🍇</h2>
+      <p>R$ 2,50</p>
+      <a href="https://wa.me/5599999999999?text=Quero%20um%20gelinho%20de%20Uva" class="btn" target="_blank">Pedir</a>
+    </div>
+    <div class="sabor">
+      <h2>Morango com Nutella 🍓+🍫</h2>
+      <p>R$ 4,00</p>
+      <a href="https://wa.me/5599999999999?text=Quero%20um%20gelinho%20de%20Morango%20com%20Nutella" class="btn" target="_blank">Pedir</a>
+    </div>
+    <div class="sabor">
+      <h2>Chocolate 🍫</h2>
+      <p>R$ 2,50</p>
+      <a href="https://wa.me/5599999999999?text=Quero%20um%20gelinho%20de%20Chocolate" class="btn" target="_blank">Pedir</a>
+    </div>
+    <div class="sabor">
+      <h2>Abacaxi com Hortelã 🍍+🌱</h2>
+      <p>R$ 2,50</p>
+      <a href="https://wa.me/5599999999999?text=Quero%20um%20gelinho%20de%20Abacaxi%20com%20Hortelã" class="btn" target="_blank">Pedir</a>
+    </div>
+    <div class="sabor">
+      <h2>Maracujá 🥭</h2>
+      <p>R$ 2,50</p>
+      <a href="https://wa.me/5599999999999?text=Quero%20um%20gelinho%20de%20Maracujá" class="btn" target="_blank">Pedir</a>
+    </div>
+    <div class="sabor">
+      <h2>Coco 🥥</h2>
+      <p>R$ 2,50</p>
+      <a href="https://wa.me/5599999999999?text=Quero%20um%20gelinho%20de%20Coco" class="btn" target="_blank">Pedir</a>
+    </div>
+    <div class="sabor">
+      <h2>Limão 🍋</h2>
+      <p>R$ 2,50</p>
+      <a href="https://wa.me/5599999999999?text=Quero%20um%20gelinho%20de%20Limão" class="btn" target="_blank">Pedir</a>
+    </div>
+    <div class="sabor">
+      <h2>Açaí com Banana 🍌+🫐</h2>
+      <p>R$ 4,00</p>
+      <a href="https://wa.me/5599999999999?text=Quero%20um%20gelinho%20de%20Açaí%20com%20Banana" class="btn" target="_blank">Pedir</a>
+    </div>
+  </main>
+
+</body>
+</html>
